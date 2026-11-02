@@ -1,0 +1,4 @@
+@model GenreDTO
+@{ ViewData["Title"] = @Localizer["Text_089"]; }
+<div class="form-page"><a asp-action="Index" class="back-link">← @Localizer["Text_066"]</a><div class="form-heading"><span class="eyebrow">@Localizer["Text_090"]</span><h1>@Localizer["Text_089"]</h1></div><form asp-action="Edit" asp-route-id="@Model.Id" method="post" class="surface-form"><input type="hidden" asp-for="Id" /><partial name="_Form" model="Model" /></form></div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

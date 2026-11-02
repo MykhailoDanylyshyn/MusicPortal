@@ -1,0 +1,7 @@
+@model ArtistDTO
+<div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+<div class="field-group"><label asp-for="Name">@Localizer["ArtistNameLabel"]</label><input asp-for="Name" class="form-control" placeholder="@Localizer["Text_085"]" /><span asp-validation-for="Name" class="field-error"></span></div>
+<div class="field-group"><label asp-for="Country">@Localizer["CountryLabel"]</label><input asp-for="Country" class="form-control" placeholder="@Localizer["Text_082"]" /></div>
+<div class="field-group"><label asp-for="Biography">@Localizer["BiographyLabel"]</label><textarea asp-for="Biography" class="form-control" rows="4" placeholder="@Localizer["Text_086"]"></textarea></div>
+<div class="field-group"><label asp-for="PhotoUrl">@Localizer["PhotoUrlLabel"]</label><input asp-for="PhotoUrl" class="form-control" placeholder="@Localizer["Text_087"]" /></div>
+<div class="form-actions"><button class="btn-primary-custom" type="submit">@Localizer["Text_088"] <span>→</span></button><a asp-action="Index" class="btn-quiet">@Localizer["Text_056"]</a></div>

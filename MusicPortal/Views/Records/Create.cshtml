@@ -1,0 +1,4 @@
+@model RecordFormViewModel
+@{ ViewData["Title"] = @Localizer["Text_018"]; }
+<div class="form-page"><a asp-action="Index" class="back-link">← @Localizer["Text_019"]</a><div class="form-heading"><span class="eyebrow">@Localizer["Text_020"]</span><h1>@Localizer["Text_015"]</h1><p>@Localizer["Text_021"]</p></div><form asp-action="Create" method="post" enctype="multipart/form-data" class="surface-form"><partial name="_RecordForm" model="Model" /></form></div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

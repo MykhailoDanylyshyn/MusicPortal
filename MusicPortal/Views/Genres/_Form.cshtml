@@ -1,0 +1,5 @@
+@model GenreDTO
+<div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+<div class="field-group"><label asp-for="Name">@Localizer["GenreNameLabel"]</label><input asp-for="Name" class="form-control" placeholder="@Localizer["Text_098"]" /><span asp-validation-for="Name" class="field-error"></span></div>
+<div class="field-group"><label asp-for="Description">@Localizer["GenreDescriptionLabel"]</label><textarea asp-for="Description" class="form-control" rows="4" placeholder="@Localizer["Text_099"]"></textarea></div>
+<div class="form-actions"><button class="btn-primary-custom" type="submit">@Localizer["Text_088"] <span>→</span></button><a asp-action="Index" class="btn-quiet">@Localizer["Text_056"]</a></div>

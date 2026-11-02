@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = @Localizer["Text_000"];
+    var latest = ViewBag.LatestRecords as IEnumerable<RecordDTO> ?? Enumerable.Empty<RecordDTO>();
+}
+<section class="hero-panel">
+    <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse-dot"></span> @Localizer["Text_001"]</span>
+        <h1>@Localizer["Text_002"]<br /><span>@Localizer["Text_003"]</span></h1>
+        <p>@Localizer["Text_004"]</p>
+        <div class="hero-actions"><a class="btn-primary-custom" asp-controller="Records" asp-action="Index">@Localizer["Text_005"] <span>↗</span></a><a class="btn-quiet" asp-controller="Records" asp-action="Create">＋ @Localizer["Text_006"]</a></div>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="disc disc-one"></div><div class="disc disc-two"></div><div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-note">♫</div></div>
+    <div class="hero-orb"></div>
+</section>
+<section class="stats-grid">
+    <div class="stat-card"><span class="stat-icon">♫</span><div><strong>@ViewBag.RecordCount</strong><span>@Localizer["Text_007"]</span></div></div>
+    <div class="stat-card"><span class="stat-icon">♬</span><div><strong>@ViewBag.ArtistCount</strong><span>@Localizer["Text_008"]</span></div></div>
+    <div class="stat-card"><span class="stat-icon">◈</span><div><strong>@ViewBag.GenreCount</strong><span>@Localizer["Text_009"]</span></div></div>
+</section>
+<section class="section-block">
+    <div class="section-heading"><div><span class="eyebrow">@Localizer["Text_010"]</span><h2>@Localizer["Text_011"]</h2></div><a class="text-link" asp-controller="Records" asp-action="Index">@Localizer["Text_012"] <span>→</span></a></div>
+    @if (!latest.Any()) { <div class="empty-state"><div class="empty-icon">♫</div><h3>@Localizer["Text_013"]</h3><p>@Localizer["Text_014"]</p><a class="btn-primary-custom" asp-controller="Records" asp-action="Create">@Localizer["Text_015"] <span>＋</span></a></div> }
+    else { <div class="music-grid">@foreach (var item in latest) { <article class="music-card"><div class="music-cover"><span>♫</span><small>@item.GenreName</small></div><div class="music-info"><h3>@item.Title</h3><p>@(item.ArtistName ?? Localizer["Text_017"])</p><audio controls preload="none" src="@item.AudioUrl"></audio><a asp-controller="Records" asp-action="Details" asp-route-id="@item.Id" class="card-more">@Localizer["Text_016"] →</a></div></article> }</div> }
+</section>
