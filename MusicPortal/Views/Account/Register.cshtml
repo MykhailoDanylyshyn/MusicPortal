@@ -1,0 +1,17 @@
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Реєстрація";
+}
+<section class="section-block" style="max-width:620px;margin:40px auto;">
+    <div class="section-heading"><div><span class="eyebrow">MUSIC PORTAL</span><h2>Створення облікового запису</h2></div></div>
+    <form asp-action="Register" method="post" class="card p-4 border-0" style="background:#171522;color:#fff;border-radius:18px;">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <div class="mb-3"><label asp-for="Username" class="form-label"></label><input asp-for="Username" class="form-control" autocomplete="username" /><span asp-validation-for="Username" class="text-danger"></span></div>
+        <div class="mb-3"><label asp-for="Email" class="form-label"></label><input asp-for="Email" class="form-control" autocomplete="email" /><span asp-validation-for="Email" class="text-danger"></span></div>
+        <div class="mb-3"><label asp-for="Password" class="form-label"></label><input asp-for="Password" class="form-control" autocomplete="new-password" /><span asp-validation-for="Password" class="text-danger"></span></div>
+        <div class="mb-3"><label asp-for="ConfirmPassword" class="form-label"></label><input asp-for="ConfirmPassword" class="form-control" autocomplete="new-password" /><span asp-validation-for="ConfirmPassword" class="text-danger"></span></div>
+        <button type="submit" class="btn-primary-custom border-0">Зареєструватися</button>
+        <p class="mt-3 mb-0">Вже маєте обліковий запис? <a asp-action="Login">Увійти</a></p>
+    </form>
+</section>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

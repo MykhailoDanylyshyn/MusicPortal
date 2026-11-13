@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Панель адміністратора";
+}
+
+<section class="admin-spa" id="adminSpa" aria-label="Панель адміністратора">
+    <div class="admin-heading">
+        <div>
+            <p class="admin-eyebrow">MUSIC / CONTROL CENTER</p>
+            <h1>Панель адміністратора</h1>
+            <p class="admin-subtitle">Керування користувачами, виконавцями та жанрами без перезавантаження сторінки.</p>
+        </div>
+        <span class="admin-status"><span></span> Адміністратор</span>
+    </div>
+
+    <div id="adminMessage" class="admin-message" role="status" aria-live="polite" hidden></div>
+
+    <div class="admin-toolbar">
+        <div class="admin-tabs" role="tablist" aria-label="Розділи керування">
+            <button class="admin-tab active" type="button" data-resource="users" role="tab" aria-selected="true">Користувачі</button>
+            <button class="admin-tab" type="button" data-resource="artists" role="tab" aria-selected="false">Виконавці</button>
+            <button class="admin-tab" type="button" data-resource="genres" role="tab" aria-selected="false">Жанри</button>
+        </div>
+        <div class="admin-actions">
+            <input id="adminSearch" class="admin-search" type="search" placeholder="Пошук у списку…" aria-label="Пошук" />
+            <button id="addItemButton" class="admin-primary" type="button">＋ Додати</button>
+        </div>
+    </div>
+
+    <div class="admin-table-wrap">
+        <div id="adminLoading" class="admin-loading">Завантаження даних…</div>
+        <table class="admin-table" id="adminTable" hidden>
+            <thead id="adminTableHead"></thead>
+            <tbody id="adminTableBody"></tbody>
+        </table>
+        <div id="adminEmpty" class="admin-empty" hidden>За вашим запитом нічого не знайдено.</div>
+    </div>
+
+    <section id="adminEditor" class="admin-editor" hidden aria-labelledby="editorTitle">
+        <div class="admin-editor-heading">
+            <div>
+                <p class="admin-eyebrow">DATA EDITOR</p>
+                <h2 id="editorTitle">Новий запис</h2>
+            </div>
+            <button id="closeEditorButton" class="admin-icon-button" type="button" aria-label="Закрити">×</button>
+        </div>
+        <form id="adminForm" class="admin-form">
+            <div id="adminFormFields" class="admin-form-grid"></div>
+            <div class="admin-form-actions">
+                <button class="admin-primary" type="submit">Зберегти</button>
+                <button id="cancelEditorButton" class="admin-secondary" type="button">Скасувати</button>
+            </div>
+        </form>
+    </section>
+    <p class="admin-footnote">Дані завантажуються та змінюються через REST Web API за допомогою Fetch API.</p>
+</section>
+
+@section Scripts {
+    <script src="~/js/admin-spa.js" asp-append-version="true"></script>
+}

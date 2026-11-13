@@ -1,12 +1,14 @@
+﻿using MusicPortal;
+using Microsoft.AspNetCore.Razor.TagHelpers;
+using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Routing;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Localization;
-using Microsoft.AspNetCore.Razor.TagHelpers;
 using System.Text;
-using MusicPortal;
+
+namespace MusicPortal.TagHelpers;
 
 [HtmlTargetElement("pagination")]
 public class PaginationTagHelper : TagHelper

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MusicPortal.BLL.DTO;
 using MusicPortal.BLL.Interfaces;
@@ -7,7 +8,9 @@ namespace MusicPortal.Controllers;
 public class ArtistsController(IArtistService service) : Controller
 {
     public async Task<IActionResult> Index() => View(await service.GetAllArtists());
+    [Authorize(Policy = "ApprovedUser")]
     public IActionResult Create() => View(new ArtistDTO { Name = string.Empty });
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(ArtistDTO model)
     {
@@ -16,11 +19,13 @@ public class ArtistsController(IArtistService service) : Controller
         TempData["Success"] = "Виконавця додано.";
         return RedirectToAction(nameof(Index));
     }
+    [Authorize(Policy = "ApprovedUser")]
     public async Task<IActionResult> Edit(int id)
     {
         var item = await service.GetArtist(id);
         return item == null ? NotFound() : View(item);
     }
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, ArtistDTO model)
     {
@@ -30,11 +35,13 @@ public class ArtistsController(IArtistService service) : Controller
         TempData["Success"] = "Дані виконавця оновлено.";
         return RedirectToAction(nameof(Index));
     }
+    [Authorize(Policy = "ApprovedUser")]
     public async Task<IActionResult> Delete(int id)
     {
         var item = await service.GetArtist(id);
         return item == null ? NotFound() : View(item);
     }
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {

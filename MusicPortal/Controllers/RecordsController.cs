@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicPortal.BLL.DTO;
@@ -66,6 +67,7 @@ public class RecordsController : Controller
         return record == null ? NotFound() : View(record);
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpGet]
     public async Task<IActionResult> Create()
     {
@@ -74,6 +76,7 @@ public class RecordsController : Controller
         return View(model);
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(RecordFormViewModel model)
     {
@@ -104,6 +107,7 @@ public class RecordsController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpGet]
     public async Task<IActionResult> Edit(int id)
     {
@@ -115,6 +119,7 @@ public class RecordsController : Controller
         return View(model);
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, RecordFormViewModel model)
     {
@@ -145,6 +150,7 @@ public class RecordsController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpGet]
     public async Task<IActionResult> Delete(int id)
     {
@@ -152,6 +158,7 @@ public class RecordsController : Controller
         return record == null ? NotFound() : View(record);
     }
 
+    [Authorize(Policy = "ApprovedUser")]
     [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
