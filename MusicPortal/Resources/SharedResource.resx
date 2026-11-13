@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Головна</value>
+  </data>
+  <data name="Nav_Catalog" xml:space="preserve">
+    <value>Каталог</value>
+  </data>
+  <data name="Nav_Artists" xml:space="preserve">
+    <value>Виконавці</value>
+  </data>
+  <data name="Nav_Genres" xml:space="preserve">
+    <value>Жанри</value>
+  </data>
+  <data name="Nav_AddRecord" xml:space="preserve">
+    <value>Додати композицію</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Мова інтерфейсу</value>
+  </data>
+  <data name="Footer_Tagline" xml:space="preserve">
+    <value>твій простір музики</value>
+  </data>
+  <data name="Footer_Slogan" xml:space="preserve">
+    <value>Створено для тих, хто слухає серцем.</value>
+  </data>
+  <data name="Text_000" xml:space="preserve">
+    <value>Твоя музика</value>
+  </data>
+  <data name="Text_001" xml:space="preserve">
+    <value>ТВОЯ МУЗИКА. ТВОЇ ВІДКРИТТЯ.</value>
+  </data>
+  <data name="Text_002" xml:space="preserve">
+    <value>Знайди свій</value>
+  </data>
+  <data name="Text_003" xml:space="preserve">
+    <value>власний ритм.</value>
+  </data>
+  <data name="Text_004" xml:space="preserve">
+    <value>Єдиний простір для улюблених композицій, нових імен та музики, до якої хочеться повертатися.</value>
+  </data>
+  <data name="Text_005" xml:space="preserve">
+    <value>Відкрити каталог</value>
+  </data>
+  <data name="Text_006" xml:space="preserve">
+    <value>Додати свою музику</value>
+  </data>
+  <data name="Text_007" xml:space="preserve">
+    <value>композицій у каталозі</value>
+  </data>
+  <data name="Text_008" xml:space="preserve">
+    <value>виконавців</value>
+  </data>
+  <data name="Text_009" xml:space="preserve">
+    <value>музичних жанрів</value>
+  </data>
+  <data name="Text_010" xml:space="preserve">
+    <value>НЕЩОДАВНО ДОДАНІ</value>
+  </data>
+  <data name="Text_011" xml:space="preserve">
+    <value>Свіже у каталозі</value>
+  </data>
+  <data name="Text_012" xml:space="preserve">
+    <value>Увесь каталог</value>
+  </data>
+  <data name="Text_013" xml:space="preserve">
+    <value>Тут скоро заграє музика</value>
+  </data>
+  <data name="Text_014" xml:space="preserve">
+    <value>Додай першу композицію та створи власну музичну колекцію.</value>
+  </data>
+  <data name="Text_015" xml:space="preserve">
+    <value>Додати композицію</value>
+  </data>
+  <data name="Text_016" xml:space="preserve">
+    <value>Детальніше</value>
+  </data>
+  <data name="Text_017" xml:space="preserve">
+    <value>Невідомий виконавець</value>
+  </data>
+  <data name="Text_018" xml:space="preserve">
+    <value>Нова композиція</value>
+  </data>
+  <data name="Text_019" xml:space="preserve">
+    <value>До каталогу</value>
+  </data>
+  <data name="Text_020" xml:space="preserve">
+    <value>ПОПОВНИ СВОЮ КОЛЕКЦІЮ</value>
+  </data>
+  <data name="Text_021" xml:space="preserve">
+    <value>Заповни основну інформацію та завантаж аудіофайл.</value>
+  </data>
+  <data name="Text_022" xml:space="preserve">
+    <value>Видалити композицію</value>
+  </data>
+  <data name="Text_023" xml:space="preserve">
+    <value>ПІДТВЕРДЖЕННЯ</value>
+  </data>
+  <data name="Text_024" xml:space="preserve">
+    <value>Видалити композицію?</value>
+  </data>
+  <data name="Text_025" xml:space="preserve">
+    <value>Ти збираєшся видалити</value>
+  </data>
+  <data name="Text_026" xml:space="preserve">
+    <value>Цю дію неможливо скасувати.</value>
+  </data>
+  <data name="Text_027" xml:space="preserve">
+    <value>Так, видалити</value>
+  </data>
+  <data name="Text_028" xml:space="preserve">
+    <value>Залишити</value>
+  </data>
+  <data name="Text_029" xml:space="preserve">
+    <value>Редагування композиції</value>
+  </data>
+  <data name="Text_030" xml:space="preserve">
+    <value>РЕДАГУВАННЯ</value>
+  </data>
+  <data name="Text_031" xml:space="preserve">
+    <value>Змінити композицію</value>
+  </data>
+  <data name="Text_032" xml:space="preserve">
+    <value>Онови інформацію або заміни аудіофайл.</value>
+  </data>
+  <data name="Text_033" xml:space="preserve">
+    <value>Музичний каталог</value>
+  </data>
+  <data name="Text_034" xml:space="preserve">
+    <value>ТВОЯ КОЛЕКЦІЯ</value>
+  </data>
+  <data name="Text_035" xml:space="preserve">
+    <value>Усі композиції в одному місці. Знаходь, слухай, відкривай.</value>
+  </data>
+  <data name="Text_036" xml:space="preserve">
+    <value>Назва композиції або виконавець</value>
+  </data>
+  <data name="Text_037" xml:space="preserve">
+    <value>Усі жанри</value>
+  </data>
+  <data name="Text_038" xml:space="preserve">
+    <value>Знайти</value>
+  </data>
+  <data name="Text_039" xml:space="preserve">
+    <value>Скинути</value>
+  </data>
+  <data name="Text_040" xml:space="preserve">
+    <value>Композицій поки немає</value>
+  </data>
+  <data name="Text_041" xml:space="preserve">
+    <value>Додай першу композицію або зміни параметри пошуку.</value>
+  </data>
+  <data name="Text_042" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="Text_043" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="Text_044" xml:space="preserve">
+    <value>Наприклад, Обійми</value>
+  </data>
+  <data name="Text_045" xml:space="preserve">
+    <value>Без виконавця</value>
+  </data>
+  <data name="Text_046" xml:space="preserve">
+    <value>Або додай нового нижче</value>
+  </data>
+  <data name="Text_047" xml:space="preserve">
+    <value>Ім'я нового виконавця</value>
+  </data>
+  <data name="Text_048" xml:space="preserve">
+    <value>Оберіть жанр</value>
+  </data>
+  <data name="Text_049" xml:space="preserve">
+    <value>Або створи новий жанр</value>
+  </data>
+  <data name="Text_050" xml:space="preserve">
+    <value>Назва нового жанру</value>
+  </data>
+  <data name="Text_051" xml:space="preserve">
+    <value>Обери аудіофайл на пристрої</value>
+  </data>
+  <data name="Text_052" xml:space="preserve">
+    <value>Поточний файл:</value>
+  </data>
+  <data name="Text_053" xml:space="preserve">
+    <value>прослухати</value>
+  </data>
+  <data name="Text_054" xml:space="preserve">
+    <value>Не обирай новий, якщо хочеш його залишити.</value>
+  </data>
+  <data name="Text_055" xml:space="preserve">
+    <value>Зберегти композицію</value>
+  </data>
+  <data name="Text_056" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Text_057" xml:space="preserve">
+    <value>Новий виконавець</value>
+  </data>
+  <data name="Text_058" xml:space="preserve">
+    <value>До виконавців</value>
+  </data>
+  <data name="Text_059" xml:space="preserve">
+    <value>НОВЕ ІМ'Я У КОЛЕКЦІЇ</value>
+  </data>
+  <data name="Text_060" xml:space="preserve">
+    <value>Додати виконавця</value>
+  </data>
+  <data name="Text_061" xml:space="preserve">
+    <value>Заповни інформацію про артиста або гурт.</value>
+  </data>
+  <data name="Text_062" xml:space="preserve">
+    <value>Видалити виконавця</value>
+  </data>
+  <data name="Text_063" xml:space="preserve">
+    <value>Видалити виконавця?</value>
+  </data>
+  <data name="Text_064" xml:space="preserve">
+    <value>буде видалено. Якщо до нього прив'язані композиції, база даних не дозволить видалення.</value>
+  </data>
+  <data name="Text_065" xml:space="preserve">
+    <value>Новий жанр</value>
+  </data>
+  <data name="Text_066" xml:space="preserve">
+    <value>До жанрів</value>
+  </data>
+  <data name="Text_067" xml:space="preserve">
+    <value>НОВЕ ЗВУЧАННЯ</value>
+  </data>
+  <data name="Text_068" xml:space="preserve">
+    <value>Додати жанр</value>
+  </data>
+  <data name="Text_069" xml:space="preserve">
+    <value>Створи категорію для своїх композицій.</value>
+  </data>
+  <data name="Text_070" xml:space="preserve">
+    <value>Видалити жанр</value>
+  </data>
+  <data name="Text_071" xml:space="preserve">
+    <value>Видалити жанр?</value>
+  </data>
+  <data name="Text_072" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="Text_073" xml:space="preserve">
+    <value>Редагувати виконавця</value>
+  </data>
+  <data name="Text_074" xml:space="preserve">
+    <value>ОНОВЛЕННЯ ПРОФІЛЮ</value>
+  </data>
+  <data name="Text_075" xml:space="preserve">
+    <value>Виконавці</value>
+  </data>
+  <data name="Text_076" xml:space="preserve">
+    <value>МУЗИЧНІ ІМЕНА</value>
+  </data>
+  <data name="Text_077" xml:space="preserve">
+    <value>Артисти та гурти, що створюють музику.</value>
+  </data>
+  <data name="Text_078" xml:space="preserve">
+    <value>Список поки порожній</value>
+  </data>
+  <data name="Text_079" xml:space="preserve">
+    <value>Додай першого виконавця до своєї музичної бібліотеки.</value>
+  </data>
+  <data name="Text_080" xml:space="preserve">
+    <value>Країна не вказана</value>
+  </data>
+  <data name="Text_081" xml:space="preserve">
+    <value>Біографія поки не додана</value>
+  </data>
+  <data name="Text_082" xml:space="preserve">
+    <value>Країна</value>
+  </data>
+  <data name="Text_083" xml:space="preserve">
+    <value>Біографія</value>
+  </data>
+  <data name="Text_084" xml:space="preserve">
+    <value>композицій:</value>
+  </data>
+  <data name="Text_085" xml:space="preserve">
+    <value>Ім'я виконавця або гурту</value>
+  </data>
+  <data name="Text_086" xml:space="preserve">
+    <value>Коротка біографія</value>
+  </data>
+  <data name="Text_087" xml:space="preserve">
+    <value>Посилання на фото (необов'язково)</value>
+  </data>
+  <data name="Text_088" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="Text_089" xml:space="preserve">
+    <value>Редагувати жанр</value>
+  </data>
+  <data name="Text_090" xml:space="preserve">
+    <value>ОНОВЛЕННЯ КАТЕГОРІЇ</value>
+  </data>
+  <data name="Text_091" xml:space="preserve">
+    <value>Жанри</value>
+  </data>
+  <data name="Text_092" xml:space="preserve">
+    <value>Музичні жанри</value>
+  </data>
+  <data name="Text_093" xml:space="preserve">
+    <value>ЗНАЙДИ СВІЙ ЗВУК</value>
+  </data>
+  <data name="Text_094" xml:space="preserve">
+    <value>Упорядкуй колекцію за настроєм і звучанням.</value>
+  </data>
+  <data name="Text_095" xml:space="preserve">
+    <value>Жанрів поки немає</value>
+  </data>
+  <data name="Text_096" xml:space="preserve">
+    <value>Створи перший жанр для своєї колекції.</value>
+  </data>
+  <data name="Text_097" xml:space="preserve">
+    <value>Опис жанру ще не додано.</value>
+  </data>
+  <data name="Text_098" xml:space="preserve">
+    <value>Наприклад, Indie rock</value>
+  </data>
+  <data name="Text_099" xml:space="preserve">
+    <value>Короткий опис жанру</value>
+  </data>
+  <data name="Text_100" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Text_101" xml:space="preserve">
+    <value>Use this page to detail your site's privacy policy.</value>
+  </data>
+  <data name="AudioFormats" xml:space="preserve">
+    <value>MP3, WAV, OGG або M4A · до 20 МБ</value>
+  </data>
+  <data name="ArtistNameLabel" xml:space="preserve">
+    <value>Ім’я виконавця або гурту</value>
+  </data>
+  <data name="CountryLabel" xml:space="preserve">
+    <value>Країна</value>
+  </data>
+  <data name="BiographyLabel" xml:space="preserve">
+    <value>Біографія</value>
+  </data>
+  <data name="PhotoUrlLabel" xml:space="preserve">
+    <value>Посилання на фото</value>
+  </data>
+  <data name="GenreNameLabel" xml:space="preserve">
+    <value>Назва жанру</value>
+  </data>
+  <data name="GenreDescriptionLabel" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="TrackTitleLabel" xml:space="preserve">
+    <value>Назва композиції</value>
+  </data>
+  <data name="ArtistSelectLabel" xml:space="preserve">
+    <value>Виконавець</value>
+  </data>
+  <data name="GenreSelectLabel" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="AudioFileLabel" xml:space="preserve">
+    <value>Аудіофайл</value>
+  </data>
+  <data name="TrackCountPrefix" xml:space="preserve">
+    <value>Композицій: </value>
+  </data>
+<data name="Pagination_Previous" xml:space="preserve"><value>Попередня</value></data><data name="Pagination_Next" xml:space="preserve"><value>Наступна</value></data><data name="Pagination_Label" xml:space="preserve"><value>Навігація сторінками</value></data></root>

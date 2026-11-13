@@ -1,0 +1,4 @@
+@model ArtistDTO
+@{ ViewData["Title"] = @Localizer["Text_057"]; }
+<div class="form-page"><a asp-action="Index" class="back-link">← @Localizer["Text_058"]</a><div class="form-heading"><span class="eyebrow">@Localizer["Text_059"]</span><h1>@Localizer["Text_060"]</h1><p>@Localizer["Text_061"]</p></div><form asp-action="Create" method="post" class="surface-form"><partial name="_Form" model="Model" /></form></div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MusicPortal.BLL/MusicPortal.BLL.csproj" />
+  <Project Path="MusicPortal.DAL/MusicPortal.DAL.csproj" />
+  <Project Path="MusicPortal/MusicPortal.csproj" />
+</Solution>

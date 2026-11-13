@@ -1,0 +1,3 @@
+@model GenreDTO
+@{ ViewData["Title"] = @Localizer["Text_070"]; }
+<div class="form-page"><div class="surface-form confirm-card"><span class="eyebrow">@Localizer["Text_023"]</span><h1>@Localizer["Text_071"]</h1><p>@Localizer["Text_072"] <strong>@Model.Name</strong> @Localizer["Text_064"]</p><form asp-action="Delete" method="post"><input type="hidden" asp-for="Id" /><button class="btn-danger-custom" type="submit">@Localizer["Text_027"]</button><a asp-action="Index" class="btn-quiet">@Localizer["Text_056"]</a></form></div></div>

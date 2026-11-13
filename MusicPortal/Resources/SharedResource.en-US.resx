@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Nav_Catalog" xml:space="preserve">
+    <value>Catalog</value>
+  </data>
+  <data name="Nav_Artists" xml:space="preserve">
+    <value>Artists</value>
+  </data>
+  <data name="Nav_Genres" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="Nav_AddRecord" xml:space="preserve">
+    <value>Add a track</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Interface language</value>
+  </data>
+  <data name="Footer_Tagline" xml:space="preserve">
+    <value>your music space</value>
+  </data>
+  <data name="Footer_Slogan" xml:space="preserve">
+    <value>Made for those who listen with their hearts.</value>
+  </data>
+  <data name="Text_000" xml:space="preserve">
+    <value>Your music</value>
+  </data>
+  <data name="Text_001" xml:space="preserve">
+    <value>YOUR MUSIC. YOUR DISCOVERIES.</value>
+  </data>
+  <data name="Text_002" xml:space="preserve">
+    <value>Find your</value>
+  </data>
+  <data name="Text_003" xml:space="preserve">
+    <value>own rhythm.</value>
+  </data>
+  <data name="Text_004" xml:space="preserve">
+    <value>One place for your favorite tracks, new artists, and music you want to return to.</value>
+  </data>
+  <data name="Text_005" xml:space="preserve">
+    <value>Browse the catalog</value>
+  </data>
+  <data name="Text_006" xml:space="preserve">
+    <value>Add your music</value>
+  </data>
+  <data name="Text_007" xml:space="preserve">
+    <value>tracks in the catalog</value>
+  </data>
+  <data name="Text_008" xml:space="preserve">
+    <value>artists</value>
+  </data>
+  <data name="Text_009" xml:space="preserve">
+    <value>music genres</value>
+  </data>
+  <data name="Text_010" xml:space="preserve">
+    <value>RECENTLY ADDED</value>
+  </data>
+  <data name="Text_011" xml:space="preserve">
+    <value>New in the catalog</value>
+  </data>
+  <data name="Text_012" xml:space="preserve">
+    <value>Full catalog</value>
+  </data>
+  <data name="Text_013" xml:space="preserve">
+    <value>Music will play here soon</value>
+  </data>
+  <data name="Text_014" xml:space="preserve">
+    <value>Add the first track and create your own music collection.</value>
+  </data>
+  <data name="Text_015" xml:space="preserve">
+    <value>Add a track</value>
+  </data>
+  <data name="Text_016" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Text_017" xml:space="preserve">
+    <value>Unknown artist</value>
+  </data>
+  <data name="Text_018" xml:space="preserve">
+    <value>New track</value>
+  </data>
+  <data name="Text_019" xml:space="preserve">
+    <value>Back to catalog</value>
+  </data>
+  <data name="Text_020" xml:space="preserve">
+    <value>GROW YOUR COLLECTION</value>
+  </data>
+  <data name="Text_021" xml:space="preserve">
+    <value>Enter the basic information and upload an audio file.</value>
+  </data>
+  <data name="Text_022" xml:space="preserve">
+    <value>Delete track</value>
+  </data>
+  <data name="Text_023" xml:space="preserve">
+    <value>CONFIRMATION</value>
+  </data>
+  <data name="Text_024" xml:space="preserve">
+    <value>Delete this track?</value>
+  </data>
+  <data name="Text_025" xml:space="preserve">
+    <value>You are about to delete</value>
+  </data>
+  <data name="Text_026" xml:space="preserve">
+    <value>This action cannot be undone.</value>
+  </data>
+  <data name="Text_027" xml:space="preserve">
+    <value>Yes, delete</value>
+  </data>
+  <data name="Text_028" xml:space="preserve">
+    <value>Keep it</value>
+  </data>
+  <data name="Text_029" xml:space="preserve">
+    <value>Edit track</value>
+  </data>
+  <data name="Text_030" xml:space="preserve">
+    <value>EDITING</value>
+  </data>
+  <data name="Text_031" xml:space="preserve">
+    <value>Edit track</value>
+  </data>
+  <data name="Text_032" xml:space="preserve">
+    <value>Update the information or replace the audio file.</value>
+  </data>
+  <data name="Text_033" xml:space="preserve">
+    <value>Music catalog</value>
+  </data>
+  <data name="Text_034" xml:space="preserve">
+    <value>YOUR COLLECTION</value>
+  </data>
+  <data name="Text_035" xml:space="preserve">
+    <value>All your tracks in one place. Find, listen, discover.</value>
+  </data>
+  <data name="Text_036" xml:space="preserve">
+    <value>Track title or artist</value>
+  </data>
+  <data name="Text_037" xml:space="preserve">
+    <value>All genres</value>
+  </data>
+  <data name="Text_038" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Text_039" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Text_040" xml:space="preserve">
+    <value>No tracks yet</value>
+  </data>
+  <data name="Text_041" xml:space="preserve">
+    <value>Add your first track or change the search filters.</value>
+  </data>
+  <data name="Text_042" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Text_043" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Text_044" xml:space="preserve">
+    <value>For example, Song title</value>
+  </data>
+  <data name="Text_045" xml:space="preserve">
+    <value>No artist</value>
+  </data>
+  <data name="Text_046" xml:space="preserve">
+    <value>Or add a new one below</value>
+  </data>
+  <data name="Text_047" xml:space="preserve">
+    <value>New artist name</value>
+  </data>
+  <data name="Text_048" xml:space="preserve">
+    <value>Select a genre</value>
+  </data>
+  <data name="Text_049" xml:space="preserve">
+    <value>Or create a new genre</value>
+  </data>
+  <data name="Text_050" xml:space="preserve">
+    <value>New genre name</value>
+  </data>
+  <data name="Text_051" xml:space="preserve">
+    <value>Choose an audio file from your device</value>
+  </data>
+  <data name="Text_052" xml:space="preserve">
+    <value>Current file:</value>
+  </data>
+  <data name="Text_053" xml:space="preserve">
+    <value>listen</value>
+  </data>
+  <data name="Text_054" xml:space="preserve">
+    <value>Do not select a new one if you want to keep it.</value>
+  </data>
+  <data name="Text_055" xml:space="preserve">
+    <value>Save track</value>
+  </data>
+  <data name="Text_056" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Text_057" xml:space="preserve">
+    <value>New artist</value>
+  </data>
+  <data name="Text_058" xml:space="preserve">
+    <value>Back to artists</value>
+  </data>
+  <data name="Text_059" xml:space="preserve">
+    <value>A NEW NAME IN YOUR COLLECTION</value>
+  </data>
+  <data name="Text_060" xml:space="preserve">
+    <value>Add artist</value>
+  </data>
+  <data name="Text_061" xml:space="preserve">
+    <value>Enter information about the artist or band.</value>
+  </data>
+  <data name="Text_062" xml:space="preserve">
+    <value>Delete artist</value>
+  </data>
+  <data name="Text_063" xml:space="preserve">
+    <value>Delete this artist?</value>
+  </data>
+  <data name="Text_064" xml:space="preserve">
+    <value>will be deleted. If tracks are linked to this genre, the database will prevent deletion.</value>
+  </data>
+  <data name="Text_065" xml:space="preserve">
+    <value>New genre</value>
+  </data>
+  <data name="Text_066" xml:space="preserve">
+    <value>Back to genres</value>
+  </data>
+  <data name="Text_067" xml:space="preserve">
+    <value>A NEW SOUND</value>
+  </data>
+  <data name="Text_068" xml:space="preserve">
+    <value>Add genre</value>
+  </data>
+  <data name="Text_069" xml:space="preserve">
+    <value>Create a category for your tracks.</value>
+  </data>
+  <data name="Text_070" xml:space="preserve">
+    <value>Delete genre</value>
+  </data>
+  <data name="Text_071" xml:space="preserve">
+    <value>Delete this genre?</value>
+  </data>
+  <data name="Text_072" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="Text_073" xml:space="preserve">
+    <value>Edit artist</value>
+  </data>
+  <data name="Text_074" xml:space="preserve">
+    <value>PROFILE UPDATE</value>
+  </data>
+  <data name="Text_075" xml:space="preserve">
+    <value>Artists</value>
+  </data>
+  <data name="Text_076" xml:space="preserve">
+    <value>MUSICAL NAMES</value>
+  </data>
+  <data name="Text_077" xml:space="preserve">
+    <value>Artists and bands who create music.</value>
+  </data>
+  <data name="Text_078" xml:space="preserve">
+    <value>The list is empty</value>
+  </data>
+  <data name="Text_079" xml:space="preserve">
+    <value>Add the first artist to your music library.</value>
+  </data>
+  <data name="Text_080" xml:space="preserve">
+    <value>Country not specified</value>
+  </data>
+  <data name="Text_081" xml:space="preserve">
+    <value>No biography added yet</value>
+  </data>
+  <data name="Text_082" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Text_083" xml:space="preserve">
+    <value>Biography</value>
+  </data>
+  <data name="Text_084" xml:space="preserve">
+    <value>tracks:</value>
+  </data>
+  <data name="Text_085" xml:space="preserve">
+    <value>Artist or band name</value>
+  </data>
+  <data name="Text_086" xml:space="preserve">
+    <value>Short biography</value>
+  </data>
+  <data name="Text_087" xml:space="preserve">
+    <value>Photo URL (optional)</value>
+  </data>
+  <data name="Text_088" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Text_089" xml:space="preserve">
+    <value>Edit genre</value>
+  </data>
+  <data name="Text_090" xml:space="preserve">
+    <value>CATEGORY UPDATE</value>
+  </data>
+  <data name="Text_091" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="Text_092" xml:space="preserve">
+    <value>Music genres</value>
+  </data>
+  <data name="Text_093" xml:space="preserve">
+    <value>FIND YOUR SOUND</value>
+  </data>
+  <data name="Text_094" xml:space="preserve">
+    <value>Organize your collection by mood and sound.</value>
+  </data>
+  <data name="Text_095" xml:space="preserve">
+    <value>No genres yet</value>
+  </data>
+  <data name="Text_096" xml:space="preserve">
+    <value>Create the first genre for your collection.</value>
+  </data>
+  <data name="Text_097" xml:space="preserve">
+    <value>No genre description added yet.</value>
+  </data>
+  <data name="Text_098" xml:space="preserve">
+    <value>For example, Indie rock</value>
+  </data>
+  <data name="Text_099" xml:space="preserve">
+    <value>Short genre description</value>
+  </data>
+  <data name="Text_100" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Text_101" xml:space="preserve">
+    <value>Use this page to detail your site's privacy policy.</value>
+  </data>
+  <data name="AudioFormats" xml:space="preserve">
+    <value>MP3, WAV, OGG or M4A · up to 20 MB</value>
+  </data>
+  <data name="ArtistNameLabel" xml:space="preserve">
+    <value>Artist or band name</value>
+  </data>
+  <data name="CountryLabel" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="BiographyLabel" xml:space="preserve">
+    <value>Biography</value>
+  </data>
+  <data name="PhotoUrlLabel" xml:space="preserve">
+    <value>Photo URL</value>
+  </data>
+  <data name="GenreNameLabel" xml:space="preserve">
+    <value>Genre name</value>
+  </data>
+  <data name="GenreDescriptionLabel" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="TrackTitleLabel" xml:space="preserve">
+    <value>Track title</value>
+  </data>
+  <data name="ArtistSelectLabel" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="GenreSelectLabel" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="AudioFileLabel" xml:space="preserve">
+    <value>Audio file</value>
+  </data>
+  <data name="TrackCountPrefix" xml:space="preserve">
+    <value>Tracks: </value>
+  </data>
+<data name="Pagination_Previous" xml:space="preserve"><value>Previous</value></data><data name="Pagination_Next" xml:space="preserve"><value>Next</value></data><data name="Pagination_Label" xml:space="preserve"><value>Page navigation</value></data></root>
